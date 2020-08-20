@@ -29,6 +29,7 @@ setup(name='tap-ms-teams',
       packages=find_packages(),
       package_data={
           'tap_ms_teams': [
-              'schemas/*.json'
+              'schemas/*.json',
+              'tests/*.py'
           ]
       })
